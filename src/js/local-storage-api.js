@@ -20,5 +20,5 @@ export function saveTheme(theme) {
 }
 
 export function loadTheme() {
-  return localStorage.getItem(THEME_KEY) || 'dark'; // 'dark' як тема за замовчуванням
+  return localStorage.getItem(THEME_KEY) || 'dark'; 
 }

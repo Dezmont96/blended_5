@@ -5,7 +5,7 @@ let tasks = [];
 
 export function initTasks() {
   tasks = loadTasks();
-  // Цей виклик замінить статичні елементи в task-list.html на дані з localStorage
+
   renderTasks(tasks);
 }
 
